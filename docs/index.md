@@ -35,6 +35,8 @@ Este repositório foi criado para documentar e compartilhar nosso processo de ap
 
 ### 5. **[Conceitos Avançados](docs/05_conceitosavancados.md)**
    - **Git Tag**: Criando tags para marcar versões específicas.
+   - **Submodules**: Trabalhando com repositórios dentro de outros repositórios.
+   - **GitHub Pages**: Publicando sites estáticos diretamente do GitHub
 
 
 ## Contribua!
