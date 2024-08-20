@@ -10,7 +10,7 @@ Este repositório foi criado para documentar e compartilhar nosso processo de ap
 
 ## Estrutura do Repositório
 
-### 1. **[Fundamentos do Git](docs/01_fundamentos_git.md)**
+### 1. **[Fundamentos do Git](01_fundamentos_git.md)**
    - **Conceitos básicos**: O que é Git? Diferença entre Git e GitHub.
    - **Controle de versão**: O que é controle de versão? Por que é importante?
    - **Repositórios**: Como criar, clonar, e configurar um repositório.
