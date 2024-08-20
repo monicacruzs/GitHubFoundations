@@ -27,10 +27,11 @@ git clone <url-do-repositorio>
 ```
 **Explicação do Comando**
 
-git clone: Este comando cria uma cópia completa do repositório remoto, incluindo todo o histórico de versões e branches.
-<url-do-repositorio>: Substitua isso pela URL do repositório GitHub que você deseja clonar. A URL pode ser encontrada na página do repositório no GitHub, geralmente disponível na seção de Code.
+**git clone**: Este comando cria uma cópia completa do repositório remoto, incluindo todo o histórico de versões e branches.
 
-Exemplo
+**url-do-repositorio**: Substitua isso pela URL do repositório GitHub que você deseja clonar. A URL pode ser encontrada na página do repositório no GitHub, geralmente disponível na seção de Code.
+
+**Exemplo**
 Se o URL do repositório for https://github.com/usuario/projeto.git, o comando para clonar seria:
 ```bash
 git clone https://github.com/usuario/projeto.git
