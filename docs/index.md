@@ -16,24 +16,24 @@ Este repositório foi criado para documentar e compartilhar nosso processo de ap
    - **Repositórios**: Como criar, clonar, e configurar um repositório.
    - **Commits**: Como fazer commits, escrever boas mensagens de commit, e entender o histórico.
 
-### 2. **[Comandos Essenciais do Git](docs/02_comandos_basicos.md)**
+### 2. **[Comandos Essenciais do Git](02_comandos_basicos.md)**
    - **git init, git clone**: Criando e clonando repositórios.
    - **git add, git commit, git push, git pull**: Adicionando, confirmando, e enviando mudanças.
    - **git status, git log**: Verificando o estado do repositório e o histórico de commits.
    - **git branch, git merge**: Trabalhando com branches e fusão de código.
 
-### 3. **[Trabalho Colaborativo no GitHub](docs/03_trabalhocolaborativo.md)**
+### 3. **[Trabalho Colaborativo no GitHub](03_trabalhocolaborativo.md)**
    - **Pull Requests**: O que são, como criar e revisar PRs.
    - **Forks e Clones**: Diferença entre os dois e quando usar cada um.
    - **Issues e Projects**: Como usar para gerenciar tarefas e colaborar em projetos.
    - **GitHub Actions**: Noções básicas sobre CI/CD com GitHub Actions.
 
-### 4. **[Resolvendo Conflitos e Melhorando o Fluxo de Trabalho](docs/04_resolvendoconflitos_fluxodetrabalho.md)**
+### 4. **[Resolvendo Conflitos e Melhorando o Fluxo de Trabalho](04_resolvendoconflitos_fluxodetrabalho.md)**
    - **Conflitos de Merge**: Como identificar e resolver.
    - **Rebasing**: Conceito de rebase e quando utilizá-lo.
    - **Git Stash**: Guardando mudanças temporárias.
 
-### 5. **[Conceitos Avançados](docs/05_conceitosavancados.md)**
+### 5. **[Conceitos Avançados](05_conceitosavancados.md)**
    - **Git Tag**: Criando tags para marcar versões específicas.
    - **Submodules**: Trabalhando com repositórios dentro de outros repositórios.
    - **GitHub Pages**: Publicando sites estáticos diretamente do GitHub
