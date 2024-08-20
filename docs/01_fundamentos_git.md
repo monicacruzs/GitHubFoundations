@@ -76,11 +76,14 @@ Após fazer o commit das suas mudanças localmente, você precisa enviar (ou "em
 1. **Empurre suas mudanças**:
    ```bash
    git push origin main
+   ```
 
-origin: Refere-se ao repositório remoto configurado no GitHub. Por padrão, origin é o nome dado ao repositório remoto quando você o clona ou adiciona pela primeira vez.
-main: É a branch principal para a qual você está enviando as mudanças. Se estiver trabalhando em uma branch diferente, substitua main pelo nome da sua branch atual.
-Exemplos
-Empurrando Mudanças para o Repositório Remoto:
+**origin**: Refere-se ao repositório remoto configurado no GitHub. Por padrão, origin é o nome dado ao repositório remoto quando você o clona ou adiciona pela primeira vez.
+
+**main**: É a branch principal para a qual você está enviando as mudanças. Se estiver trabalhando em uma branch diferente, substitua main pelo nome da sua branch atual.
+
+**Exemplos
+Empurrando Mudanças para o Repositório Remoto**:
 
 1. Se você estiver na branch main e deseja enviar suas mudanças para o repositório remoto:
 
