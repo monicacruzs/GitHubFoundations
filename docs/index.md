@@ -13,7 +13,7 @@ Este repositório foi criado para documentar e compartilhar nosso processo de ap
 ### 1. **[Fundamentos do Git](01_fundamentos_git.md)**
    - **Conceitos básicos**: O que é Git? Diferença entre Git e GitHub.
    - **Controle de versão**: O que é controle de versão? Por que é importante?
-   - **Terminologia**: Uma breve lista dos termos usados com frequência pelos usuários do Git.
+   - **Terminologia**: Principais Termos do Git
    - **Repositórios**: Como criar, clonar, e configurar um repositório.
    - **Commits**: Como fazer commits, escrever boas mensagens de commit, e entender o histórico.
 
