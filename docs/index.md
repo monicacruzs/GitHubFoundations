@@ -24,6 +24,7 @@ Este repositório foi criado para documentar e compartilhar nosso processo de ap
    - **git branch, git checkout, git merge**: Trabalhando com branches e fusão de código.
    - **git revert, git reset**: Revertendo e gerenciando mudanças.
    - **git tag**: Trabalhando com tags.
+   - **git remote**: gerenciar as conexões a repositórios remotos.
 
 ### 3. **[Trabalho Colaborativo no GitHub](03_trabalhocolaborativo.md)**
    - **Pull Requests**: O que são, como criar e revisar PRs.
