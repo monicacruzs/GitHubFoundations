@@ -6,7 +6,34 @@ Git armazena o histórico completo de mudanças, permitindo voltar a versões an
 Git é a ferramenta que você usa localmente para gerenciar o histórico do seu código.
 GitHub é uma plataforma online que hospeda repositórios Git, permitindo colaboração, backup, e outras funcionalidades, como pull requests e issues.
 
-# 3. Criando um Repositório
+# 3. Terminologia
+
+### Repositório
+Um diretório onde o Git armazena todo o histórico de versões e metadados dos arquivos do projeto.
+
+### Commit
+Um registro de alterações no repositório. Cada commit possui um identificador único que permite rastrear mudanças específicas ao longo do tempo.
+
+### Branch
+Uma linha de desenvolvimento que contém uma série de commits. O branch principal é geralmente chamado de `main`, mas podem existir outros branches para trabalhar em diferentes funcionalidades ou correções.
+
+### Repositório Remoto
+Um repositório armazenado em um servidor (como o GitHub) que é usado para colaboração entre desenvolvedores. Os repositórios remotos permitem que você envie e receba alterações através de operações de `push` e `pull`.
+
+### Hash
+Um código gerado por uma função que representa o conteúdo de um arquivo de forma única. No Git, é usado para identificar arquivos e alterações de forma segura. Mesmo que o nome ou data do arquivo mude, o Git usa o hash para verificar se o conteúdo foi alterado.
+
+### Objeto
+No Git, um repositório contém quatro tipos de objetos: 
+
+- **Blob:** Contém o conteúdo dos arquivos.
+- **Árvore (Tree):** Representa um diretório e armazena informações sobre os blobs e outros diretórios dentro dele.
+- **Commit:** Representa um ponto específico na linha do tempo do repositório e contém referências a um objeto de árvore, autor, mensagem de commit, e links para commits anteriores.
+- **Tag:** É um nome associado a um commit específico, geralmente usado para marcar versões de lançamento.
+
+Esses objetos são identificados de forma única pelos hashes, garantindo a integridade e rastreabilidade no Git.
+
+# 4. Criando um Repositório
 Um repositório é como uma pasta onde seu projeto e todo o histórico de versões são armazenados. Para criar um repositório, siga estes passos:
 
 ## Inicializando um Repositório
@@ -20,7 +47,7 @@ git init
 
 Este comando inicializa um repositório Git na pasta onde você está atualmente. Após executar o comando, a pasta será monitorada pelo Git, e você poderá começar a adicionar arquivos e fazer commits.
 
-# 4. Clonando um Repositório
+# 5. Clonando um Repositório
 Para trabalhar em um projeto existente, você precisa criar uma cópia local do repositório do GitHub. Para fazer isso, você pode clonar o repositório usando o comando abaixo. Abra seu terminal e execute:
 ```bash
 git clone <url-do-repositorio>
@@ -38,7 +65,7 @@ git clone https://github.com/usuario/projeto.git
 ```
 Após executar o comando, você terá uma cópia do repositório na pasta local onde o comando foi executado. Agora você pode começar a trabalhar no projeto localmente.
 
-# 5. Fazendo Commits
+# 6. Fazendo Commits
 
 O commit é como uma "foto" do seu código em um momento específico. Ele salva as mudanças que você fez no repositório. Para fazer um commit, siga estes passos:
 
@@ -67,7 +94,7 @@ git commit -m "Corrige erro de digitação no README"
 
 2. **`git commit -m "Mensagem"`**: A mensagem do commit deve ser concisa e descrever claramente o que foi alterado. Use uma descrição que ajude a identificar rapidamente o propósito do commit.
 
-# 6. Empurrando Mudanças para o GitHub
+# 7. Empurrando Mudanças para o GitHub
 
 Após fazer o commit das suas mudanças localmente, você precisa enviar (ou "empurrar") essas mudanças para o repositório remoto no GitHub. Para isso, use o comando `git push`. 
 
@@ -113,7 +140,7 @@ Sincronização com o Repositório Remoto: Antes de empurrar suas mudanças, é 
 
 2. **Configuração do Remoto**: Se você encontrar problemas com o comando `git push`, pode ser útil verificar a configuração do repositório remoto com `git remote -v` para garantir que o URL esteja correto e que você tenha permissão para empurrar mudanças.
 
-# 7. Integrando Mudanças Locais e Remotas
+# 8. Integrando Mudanças Locais e Remotas
 
 Quando você faz alterações no seu repositório local e descobre que há mudanças no repositório remoto, é importante integrar essas mudanças antes de empurrar suas próprias alterações. Aqui está como você pode fazer isso:
 
