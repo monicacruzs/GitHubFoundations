@@ -168,3 +168,30 @@ git tag <nome-da-tag>
 ```
 
 Tags ajudam a identificar versões específicas do seu projeto.
+
+# 2.12. Gerenciando Repositórios Remotos
+
+Para colaborar com repositórios remotos, como os hospedados no GitHub, é importante saber gerenciar essas conexões:
+
+```bash
+git remote -v
+```
+Este comando lista os repositórios remotos associados ao seu repositório local, mostrando suas URLs para push e pull.
+
+Para adicionar um novo repositório remoto:
+
+```bash
+git remote add origin <url-do-repositorio>
+
+Substitua <url-do-repositorio> pela URL do repositório remoto. O nome origin é um alias comum para o repositório remoto principal.
+
+```
+Para remover um repositório remoto:
+
+```bash
+git remote remove <nome-do-remoto>
+```
+Este comando remove a conexão com o repositório remoto especificado.
+
+
+
