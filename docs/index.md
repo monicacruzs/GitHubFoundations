@@ -18,10 +18,12 @@ Este repositório foi criado para documentar e compartilhar nosso processo de ap
    - **Commits**: Como fazer commits, escrever boas mensagens de commit, e entender o histórico.
 
 ### 2. **[Comandos Essenciais do Git](02_comandos_basicos.md)**
-   - **git init, git clone**: Criando e clonando repositórios.
+   - **git init, git clone**: Inicializando e clonando repositórios.
    - **git add, git commit, git push, git pull**: Adicionando, confirmando, e enviando mudanças.
-   - **git status, git log**: Verificando o estado do repositório e o histórico de commits.
-   - **git branch, git merge**: Trabalhando com branches e fusão de código.
+   - **git status, git log, git diff**: Verificando o estado do repositório, o histórico de commits e visualizando diferenças.
+   - **git branch, git checkout, git merge**: Trabalhando com branches e fusão de código.
+   - **git revert, git reset**: Revertendo e gerenciando mudanças.
+   - **git tag**: Trabalhando com tags.
 
 ### 3. **[Trabalho Colaborativo no GitHub](03_trabalhocolaborativo.md)**
    - **Pull Requests**: O que são, como criar e revisar PRs.
