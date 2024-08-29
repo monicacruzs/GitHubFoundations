@@ -4,12 +4,13 @@
 Conflitos de *merge* ocorrem quando duas pessoas modificam a mesma parte de um arquivo em diferentes branches, e o Git não sabe qual versão manter. Para resolver um conflito:
 
 1. O Git marca as áreas do arquivo em conflito assim:
-   ```plaintext
-   <<<<<<< HEAD
-   Seu código atual aqui
-   =======
-   O código do outro branch aqui
-   >>>>>>> branch-em-conflito
+
+```plaintext
+<<<<<<< HEAD
+Seu código atual aqui
+=======
+O código do outro branch aqui
+>>>>>>> branch-em-conflito
 ```
 
 2. Edite o arquivo para escolher qual código deve permanecer (ou combine os dois).
