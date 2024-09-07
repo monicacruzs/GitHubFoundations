@@ -31,17 +31,14 @@ Preparação para a certificação GitHub Foudations
    - GitHub Pages: Publicando sites estáticos diretamente do GitHub.
 
 7. Segurança, Privacidade e Administração 
-   - permissões   
+   - Permissões  
      
 8. Desenvolvimento Moderno 
    - CI/CD com GitHub Actions
   
 9. Gerenciamento de Projetos
+   - a desenvolver
      
-10. Benefícios da Comunidade GitHub 
-   - Como usar a comunidade
-   - Relatórios de bugs
-   - Discussões
-     
-11. Simulados e Cenários Práticos
-
+10. Benefícios da Comunidade GitHub
+    
+11. Simulados e Cenários
