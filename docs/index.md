@@ -46,10 +46,10 @@ Este repositório foi criado para documentar e compartilhar nosso processo de ap
    - **Permissões**:
    - **Desenvolvimento Moderno**:
 
-### 7. **[Desenvolvimento Moderno](10_Desenvolvimento_moderno.md)
+### 7. **[Desenvolvimento Moderno](10_Desenvolvimento_moderno.md)**
    - **CI/CD com GitHub Actions**:
      
-### 8. **[Gerenciamento de Projetos](08_Gerenciando_Projetos.md)
+### 8. **[Gerenciamento de Projetos](08_Gerenciando_Projetos.md)**
 
 ### 9. **[Benefícios da Comunidade GitHub](07_Comunidade.md)**
    - **Como usar a comunidade**:
