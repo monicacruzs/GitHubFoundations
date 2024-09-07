@@ -1,4 +1,4 @@
-# Bem-vindo ao Repositório de Estudos
+# Bem-vindo ao Repositório de Estudos Certificação GitHub Foundations
 
 Este repositório foi criado para documentar e compartilhar nosso processo de aprendizado para a certificação GitHub Foundations. Aqui, você encontrará um guia passo a passo sobre como usar o Git e o GitHub, além de exemplos práticos e dicas úteis.
 
