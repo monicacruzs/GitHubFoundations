@@ -42,6 +42,8 @@ Este repositório foi criado para documentar e compartilhar nosso processo de ap
    - **Submodules**: Trabalhando com repositórios dentro de outros repositórios.
    - **GitHub Pages**: Publicando sites estáticos diretamente do GitHub
 
+### 9. **[Simulados e Cenários Práticos](09_simulados.md)**
+
 
 ## Contribua!
 
