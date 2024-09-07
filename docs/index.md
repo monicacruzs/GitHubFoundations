@@ -42,7 +42,21 @@ Este repositório foi criado para documentar e compartilhar nosso processo de ap
    - **Submodules**: Trabalhando com repositórios dentro de outros repositórios.
    - **GitHub Pages**: Publicando sites estáticos diretamente do GitHub
 
-### 9. **[Simulados e Cenários Práticos](09_simulados.md)**
+### 6. **[Segurança, Privacidade e Administração](06_secprivadm.md)**
+   - **Permissões**:
+   - **Desenvolvimento Moderno**:
+
+### 7. **[Desenvolvimento Moderno](10_Desenvolvimento_moderno.md)
+   - **CI/CD com GitHub Actions**:
+     
+### 8. **[Gerenciamento de Projetos](08_Gerenciando_Projetos.md)
+
+### 9. **[Benefícios da Comunidade GitHub](07_Comunidade.md)**
+   - **Como usar a comunidade**:
+   - **Relatórios de bugs**:
+   - **Discussões**:
+
+### 10. **[Simulados e Cenários Práticos](09_simulados.md)**
 
 
 ## Contribua!
