@@ -73,6 +73,39 @@
 
     **Resposta Correta:** C
 
+14. **Quais práticas são recomendadas para proteger um repositório GitHub de acesso não autorizado?**
+    - A) Usar autenticação de dois fatores (2FA).
+    - B) Compartilhar senhas de acesso com todos os membros da equipe.
+    - C) Tornar o repositório privado e usar permissões granulares para usuários.
+    - D) A e C.
+
+    **Resposta Correta:** D
+
+15. **Qual funcionalidade do GitHub permite que você rastreie tarefas e progresso de forma visual através de cartões e colunas?**
+    - A) GitHub Actions
+    - B) GitHub Discussions
+    - C) GitHub Projects
+    - D) GitHub Pages
+   
+    **Resposta Correta:** C
+    
+17. **Como você configuraria uma pipeline de CI/CD básica usando GitHub Actions para testar automaticamente o código a cada novo commit?**   
+    - A) Criar um arquivo .yml em .github/workflows com uma definição de job que inclui etapas de instalação, teste e build.
+    - B) Configurar um servidor manualmente para monitorar o repositório e rodar scripts de teste.
+    - C) Editar diretamente o código fonte sem nenhum teste.
+    - D) Configurar o GitHub Pages para rodar testes.
+
+    **Resposta Correta:** A
+
+18. **Qual das seguintes opções descreve melhor o GitHub Sponsors?**
+    - A) Um recurso para automatizar tarefas de desenvolvimento.
+    - B) Uma plataforma que permite a desenvolvedores receberem suporte financeiro da comunidade.
+    - C) Uma ferramenta para gerenciar branches e pull requests.
+    - D) Um recurso para hospedar sites estáticos gratuitamente.
+
+    **Resposta Correta:** B
+
+
 ## 2. Cenários Práticos
 
 ### Cenário 1: Trabalhando com Branches
@@ -103,10 +136,11 @@ Você está colaborando em um projeto com sua equipe e precisa adicionar uma nov
 
 Ao tentar fazer merge da branch feature/melhorias-ui com a branch main, você enfrenta um conflito. Pratique as seguintes etapas:
 
-1. Tente o merge:
+1. Use o merge para tentar fundir as branches:
 
    ```bash
    git merge feature/melhorias-ui
+   
    Identifique e resolva os conflitos manualmente no editor de texto.
 
 2. Adicione os arquivos corrigidos ao stage:
@@ -118,6 +152,12 @@ Ao tentar fazer merge da branch feature/melhorias-ui com a branch main, você en
 
    ```bash
    git commit -m "Resolve conflitos de merge entre melhorias-ui e main"
+
+4. Enviar para o repositório remoto com git push:
+   
+   ```bash
+   git push
+   
 
 ### Cenário 3: Configuração de Repositórios Remotos
 
@@ -153,3 +193,27 @@ Você fez um commit que introduziu um bug crítico. Pratique como reverter um co
     git revert <hash-do-commit>
 
 3. Confirme a mensagem de commit gerada pelo Git.
+
+### Cenário 5: Configurar um Workflow com GitHub Actions
+
+1. Configure uma pipeline de CI/CD simples que testa automaticamente um projeto Python a cada novo commit:
+2. Crie um arquivo .yml em .github/workflows no seu repositório.
+3. Configure o workflow para instalar dependências, rodar testes com pytest, e gerar um relatório.
+4. Faça commit do workflow e valide se o job é executado corretamente no GitHub Actions.
+
+### Cenário 6: Gerenciar um Repositório com Múltiplas Branches
+
+1. Pratique a criação e o gerenciamento de branches:
+2. Crie uma nova branch chamada hotfix/bug-corrigido.
+3. Faça algumas mudanças em um arquivo de código e faça commit.
+4. Mude para a branch main e traga as alterações da hotfix/bug-corrigido usando git merge.
+5. Apague a branch hotfix/bug-corrigido após o merge.
+
+### Cenário 7: Usar git remote para Gerenciar Vários Repositórios
+
+1. Configure um repositório local para ter dois remotes:
+2. Crie um repositório no GitHub e um fork desse repositório.
+2. Adicione o fork como um segundo remote chamado upstream.
+3. Pratique os comandos para buscar e sincronizar alterações entre os dois remotes.
+
+
