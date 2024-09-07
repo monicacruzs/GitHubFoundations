@@ -51,7 +51,7 @@ Este repositório foi criado para documentar e compartilhar nosso processo de ap
      
 ### 8. **[Gerenciamento de Projetos](08_Gerenciando_Projetos.md)**
 
-### 9. **[Benefícios da Comunidade GitHub](10_Comunidade.md)**
+### 9. **[Benefícios da Comunidade GitHub](10_comunidade.md)**
    - **Como usar a comunidade**:
    - **Relatórios de bugs**:
    - **Discussões**:
