@@ -25,7 +25,21 @@ Preparação para a certificação GitHub Foudations
    - Rebasing: Conceito de rebase e quando utilizá-lo.
    - Git Stash: Guardando mudanças temporárias.
 
-  6. Conceitos Avançados
-     - Git Tag: Criando tags para marcar versões específicas.
-     - Submodules: Trabalhando com repositórios dentro de outros repositórios.
-     - GitHub Pages: Publicando sites estáticos diretamente do GitHub.
+6. Conceitos Avançados
+   - Git Tag: Criando tags para marcar versões específicas.
+   - Submodules: Trabalhando com repositórios dentro de outros repositórios.
+   - GitHub Pages: Publicando sites estáticos diretamente do GitHub.
+
+7. Segurança, Privacidade e Administração 
+   - permissões
+     
+8. Desenvolvimento Moderno 
+   - CI/CD com GitHub Actions
+     
+9. Benefícios da Comunidade GitHub 
+   - como usar a comunidade
+   - relatórios de bugs
+   - discussões
+     
+10. Simulados e Cenários Práticos
+    
